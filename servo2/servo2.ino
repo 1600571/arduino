@@ -12,14 +12,14 @@
       
       myservo.attach(9);  
       delay(15);
-      myservo.write(90);
+      myservo.write(0);
       delay(1000); 
       myservo.detach();
       delay(1000);      
       
       myservo.attach(9); 
       delay(15);  
-      myservo.write(180);
+      myservo.write(95);
       delay(1000); 
       myservo.detach();
       delay(1000);                  
